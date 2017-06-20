@@ -1,0 +1,80 @@
+div{
+	border:0px solid ;
+	
+}
+#head1{
+	width: 1440px;
+	height: 28px;
+	text-align: right;
+}
+#head1 a{
+	text-decoration: none;
+	color:black;
+}
+#head2{
+	width: auto;
+	height: 72px;
+}
+.list a:hover{
+	
+    color: red; 
+} 
+.list div:hover{     
+    	border-bottom-color: red;  
+} 
+.list a{
+	text-decoration: none;
+    color: black; 
+} 
+.list{     
+	float:left;     
+	margin-left: 20px;     
+	width: 120px;     
+	height: 46px;     
+	text-align: center;
+	margin-top: 30px; 
+} 
+.search{     
+	margin-top: 20px;     
+	float: right; 
+} 
+.pic{
+	float: left ; 
+}
+
+#center{
+	text-align:center;
+	width:1160px;;
+	height:auto;
+	float:left;
+	/* 移动 */
+	position:relative;
+	left:200px;
+}
+#center2{
+	text-align:center;
+	width:1160px;;
+	height:auto;
+	float:left;
+	/* 移动 */
+	position:relative;
+	left:200px;
+}
+#bottom{
+	background-color:black;
+	color:white;
+	float:left;
+	width:100%;
+	height:50px;
+	text-align:center;
+	padding-top:20px;
+}
+#bottom a{
+	color:white;
+	text-decoration:none;
+}
+
+
+
+
+

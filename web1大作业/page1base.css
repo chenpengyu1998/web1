@@ -1,0 +1,23 @@
+.head{
+	color: white;
+	height: 41px;
+	width: 100%;
+	background-image: url('images/head_intel.jpg');
+	background-size: 100% 100%;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color:blue;
+}
+.a{
+	background-color: #003c71;
+	text-align: center;
+	width: 100%;
+	height: 91px;
+}
