@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8" />
+	<title>calc</title>
+	<script type="text/javascript">
+		var str1="";
+		var str3="";
+		var num1=0;
+		var num2=0;
+		var num3=0;
+		function a(){
+			// 文本框
+		}
+		function cls(){
+			// C
+			document.getElementById('jg').value="";
+			str1="";
+			str2="";
+			str3="";
+		}
+		function a(){
+			//	1
+			str1=str1+"1";
+			str3=str3+"1";
+			document.getElementById('jg').value=str3;
+		};
+		function b(){
+			//	2
+			str1=str1+"2";
+			str3=str3+"2";
+			document.getElementById('jg').value=str3;
+		};
+		function c(){
+			//	3
+			str1=str1+"3";
+			str3=str3+"3";
+			document.getElementById('jg').value=str3;
+		};
+		function d(){
+			//	+
+			str3 = str3 + "+"
+			document.getElementById('jg').value=str3;
+			num1 = parseInt(str1);
+			str1="";
+		};
+		function e(){
+			// 	4
+			str1=str1+"4";
+			str3=str3+"4";
+			document.getElementById('jg').value=str3;
+		};
+		function f(){
+			//	5
+			str1=str1+"5";
+			str3=str3+"5";
+			document.getElementById('jg').value=str3;
+		};
+		function g(){
+			//	6
+			str1=str1+"6";
+			str3=str3+"6";
+			document.getElementById('jg').value=str3;
+		};
+		function h(){
+			//	-
+			str3 = str3 + "-"
+			document.getElementById('jg').value=str3;
+			num1 = parseInt(str1);
+			str1="";
+		};
+		function i1(){
+			//	7
+			str1=str1+"7";
+			str3=str3+"7";
+			document.getElementById('jg').value=str3;
+		};
+		function j(){
+			//	8
+			str1=str1+"8";
+			str3=str3+"8";
+			document.getElementById('jg').value=str3;
+		};
+		function k(){
+			// 	9
+			str1=str1+"9";
+			str3=str3+"9";
+			document.getElementById('jg').value=str3;
+		};
+		function l(){
+			// 	*
+			str3 = str3 + "*"
+			document.getElementById('jg').value=str3;
+			num1 = parseInt(str1);
+			str1="";
+		};
+		function m(){
+			//	0
+			str1=str1+"0";
+			str3=str3+"0";
+			document.getElementById('jg').value=str3;
+		};
+		function n(){
+			//	.
+		};
+		function o(){
+			// 	=
+			num2 = parseInt(str1);
+			if(str3.indexOf("+")!=-1){
+				num3 = num1 + num2;
+
+			}
+			if(str3.indexOf("-")!=-1){
+				num3 = num1 - num2;
+			}
+			if(str3.indexOf("*")!=-1){
+				num3 = num1 * num2;
+			}
+			if(str3.indexOf("/")!=-1){
+				num3 = num1 / num2;
+			}
+			num3=num3+"";
+			document.getElementById('jg').value=num3;
+			str1="";
+			str3="";
+			num1=0;
+			num2=0;
+			num3=0;
+			i=0;
+
+		};
+		function p(){
+			// 	/
+			str3 = str3 + "/"
+			document.getElementById('jg').value=str3;
+			num1 = parseInt(str1);
+			str1="";
+		};
+
+
+
+
+
+	</script>
+</head>
+<body>
+	<table border="3" cellspacing="10px" cellpadding="10px" align="center" >
+		<tr>
+			<td colspan="3" width="150px"><input type="text" id="jg" value=""   style="text-align: right; font-size: 20px; font-weight: bold; height: 50px;" ></td><!-- 文本框 -->
+			<td><button style="font-size: bold; height: 50px; width: 50px;" id="clean" onclick="cls();">C</button></td>   <!-- C -->
+		</tr>
+		<tr style="text-align: center;">
+			<td><button style="font-size: bold; height: 50px; width: 50px;" id="one"  onclick="a();" >1</button></td>
+			<td><button style="font-size: bold; height: 50px; width: 50px;" id="two"  onclick="b();" >2</button></td>
+			<td><button style="font-size: bold; height: 50px; width: 50px;" id="three" onclick="c();">3</button></td>
+			<td><button style="font-size: bold; height: 50px; width: 50px;" id="jia"   onclick="d();">+</button></td>
+		</tr>
+		<tr style="text-align: center;">
+			<td><button style="font-size: bold; height: 50px; width: 50px;" id="four"  onclick="e();">4</button></td>
+			<td><button style="font-size: bold; height: 50px; width: 50px;" id="five" onclick="f();" >5</button></td>
+			<td><button style="font-size: bold; height: 50px; width: 50px;" id="six"   onclick="g();">6</button></td>
+			<td><button style="font-size: bold; height: 50px; width: 50px;" id="jian" onclick="h();" >-</button></td>
+		</tr>
+		<tr style="text-align: center;">
+			<td><button style="font-size: bold; height: 50px; width: 50px;" id="seven" onclick="i1();">7</button></td>
+			<td><button style="font-size: bold; height: 50px; width: 50px;" id="eight" onclick="j();">8</button></td>
+			<td><button style="font-size: bold; height: 50px; width: 50px;" id="nine"  onclick="k();">9</button></td>
+			<td><button style="font-size: bold; height: 50px; width: 50px;" id="chen"  onclick="l();">*</button></td>
+		</tr>
+		<tr style="text-align: center;">
+			<td><button style="font-size: bold; height: 50px; width: 50px;" id="zero" onclick="m();" >0</button></td>
+			<td><button style="font-size: bold; height: 50px; width: 50px;" id="dian" onclick="n();" >.</button></td>
+			<td><button style="font-size: bold; height: 50px; width: 50px;" id="dengyu"onclick="o();">=</button></td>
+			<td><button style="font-size: bold; height: 50px; width: 50px;" id="chu"  onclick="p();" >/</button></td>
+		</tr>
+
+	</table>
+</body>
+</html>

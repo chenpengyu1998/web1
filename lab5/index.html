@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title> 仿QQ空间相册 </title>
+    <meta charset="utf-8" />
+    <style type="text/css">
+        #main{
+        width:1000px;
+        margin:auto;
+        }
+        #smallpic{
+        height:120px; 
+        }
+        img{
+        float:left; 
+        margin-right:10px; 
+        margin-bottom:10px;
+        border:none;
+        }
+        #smallpic img:hover{
+            cursor:pointer; /*设定鼠标的形状为小手*/
+        }
+        .pb{
+         border:3px solid #14c3fd;
+        } 
+    </style>
+    
+</head>
+
+<body>
+    <div id="main">
+        <div id="smallpic">
+            <img src="images/s2.jpg" width="180" height="100" id="one" onclick="oneP();" />
+            <img src="images/s3.jpg" width="180" height="100" id="one" onclick="twoP();" />
+            <img src="images/s4.jpg" width="180" height="100" id="one" onclick="threeP();" />
+            <img src="images/s5.jpg" width="180" height="100" id="one" onclick="fourP();" />
+            <img src="images/s6.jpg" width="180" height="100" id="one" onclick="fiveP();" />
+        </div>
+        <div >
+            <img id="bigpic" src="images/s1.jpg" width="940px" />
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+	function oneF(){
+		
+		var i=0;
+		for(i=0;i<5;i++){
+			// pic[i].style.cssText="border-style:none;"
+			document.getElementById('smallpic').childNodes[i].style.border="none";
+
+		}
+		document.getElementById('smallpic').childNodes[0].style.border="3px solid yellow;";
+
+	}
+	function oneP(){
+		var picB=document.getElementById('bigpic').src="images/s2.jpg";
+	}
+		function twoP(){
+		var picB=document.getElementById('bigpic').src="images/s3.jpg";
+	}
+		function threeP(){
+		var picB=document.getElementById('bigpic').src="images/s4.jpg";
+	}
+		function fourP(){
+		var picB=document.getElementById('bigpic').src="images/s5.jpg";
+	}
+		function fiveP(){
+		var picB=document.getElementById('bigpic').src="images/s6.jpg";
+	}
+
+</script>
+
+
+
+</html>
