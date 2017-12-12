@@ -14,12 +14,25 @@
 </head>
 <body>
 	<table width="1000px" border="1">
-		<tr height="30px">
+		<tr height="30px" id="TD">
 			<td></td><td></td><td></td><td></td><td></td><td></td>
 			<td></td><td></td><td></td><td></td><td></td><td></td>
 		</tr>
 	</table>
-	<input type="button" name="" id="add" value="添加一行" style="margin-left:840px;"/>
-	<input type="button" name="" id="delete" value="删除一行" style="margin-left:840px;"/>
+	<input type="button" name="" id="add" value="添加一行" style="margin-left:840px;" onclick="add();" />
+	<input type="button" name="" id="delete" value="删除一行" style="margin-left:840px;" onclick="deletes();"/>
 </body>
+<script type="text/javascript">
+	function add(){
+		var newNode=document.createElement("td");
+		var myNode=document.getElementById('TD').firstChild;
+		myNode.parentNode.appendChild(newNode);
+	}
+
+	function deletes(){
+		var myNode=document.getElementById('TD').firstChild;
+		myNode.parentNode.removeChild(myNode);
+
+	}
+</script>
 </html>
