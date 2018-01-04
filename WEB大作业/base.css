@@ -1,0 +1,33 @@
+	#top{
+			height: 90px;
+			width: 1140px;
+			text-align: center;
+			margin:0 auto;
+		}
+		#topSpacial{
+			text-align: right;
+			display: inline;
+			width: 500px;
+			height:300px;
+			 position: absolute; top: 50%; transform: translateY(-50%);
+		}
+		#topSpecial div{
+			text-align: right;
+			display: inline;
+
+		}
+		#topSpecial div a{
+			color: black;
+			text-decoration :none;
+			
+		}
+		#pic2{
+			display: inline;
+		}
+		#center{
+			text-align: center;
+
+		}
+		#botton{
+			text-align: center;
+		}
