@@ -49,21 +49,28 @@
 		#nav li.subMenuShow ul{
 		display:block;
 		}
-	</style>
-	<script type="text/javascript">
-		window.onload = function(){
-			var liNodes = document.getElementsByTagName("li");
-			for (var i=0; i<liNodes.length; i++)
-			{
-				liNodes[i].onmouseover = function(){
-					this.className = "subMenuShow";
-				}
-				liNodes[i].onmouseout = function(){
-					this.className = "";
-				}
-			}
-		}
-	</script>
+/*****************************
+*/
+
+
+body{
+	text-align:center;
+}
+#pic3 {    width: 380px;
+        height: 520px;
+        margin-left: 10px;
+}
+#picScroll{
+	margin:0 auto;
+	height:518px;
+	border:1px solid #C90;
+	white-space:nowrap; 
+	width:380px;
+	overflow:hidden;
+}
+
+</style>
+
 
 
 </head>
@@ -71,7 +78,7 @@
 	<div id="top">
 		<div style="display: inline;">
 			<a href="http://www.kali.org" target="_blank" style="position:absolute;left:500px;top:20px">
-				<img src="images/Logo.JPG" style="text-align: left; display: inline;">
+				<img src="images/Logo.JPG"  style="text-align: left; display: inline;">
 			</a>
 		</div>
 		<div id="topSpecial" style="display: inline ;text-align:right;">
@@ -120,15 +127,37 @@
 		&nbsp;<br />
 	</div>
 	<div style="text-align: center;">
-		<img src="images/pig1.JPG" width="1140px;">
+		<img src="images/pig1.JPG"  id="pic4" width="1140px;">
 	</div>
 	<div id="center">
-		<div id="pic2"><img src="images/pig2.JPG"></div>	
-		<div id="pic2"><img src="images/pig3.JPG"></div>	
-		<div id="pic2"><img src="images/pig4.JPG"></div>
-		<div id="pic2"><img src="images/pig5.JPG"></div>	
+<!-- 		<div id="pic"><img src="images/pig2.JPG" id="pic2"></div>	
+		<div id="pic"><img src="images/pig3.JPG" id="pic2"></div>	
+		<div id="pic"><img src="images/pig4.JPG" id="pic2"></div>
+		<div id="pic"><img src="images/pig5.JPG" id="pic2"></div>	 -->
+		<div id="picScroll">
+		<span id="picScroll1">
+			<img src="images/pig5.JPG" id="pic3" />
+			<img src="images/pig2.JPG" id="pic3"/>
+			<img src="images/pig3.JPG" id="pic3"/>
+			<img src="images/pig4.JPG" id="pic3" />
+		</span>
+		<span id="picScroll2"></span>
+		</div> 
 	</div>
 	<div id="botton"><img src="images/button.JPG"></div>
+<br>
+
+<br />
+	<div style="text-align: center ;font-size:40px;">
+		<hr/>
+		姓名:&nbsp;<input type="text" name="name" style="font-size: 40px;" id="bu"><br />
+		性别:&nbsp;<input type="radio" name="sex" checked="checked" style="width:20px;height:20px"">男 &nbsp;&nbsp;&nbsp;<input type="radio" name="sex"  style="width:20px;height:20px"">女<br />
+		电话:&nbsp;<input type="text" name="tel" style="font-size: 40px;" id="bu"><br>
+		<input type="button" style="width:200px;height: 100px;font-size: 40px;" value="提交" onclick="submit()">
+		<hr />
+	</div>
+
+
 </body>
 
 
