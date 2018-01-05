@@ -1,0 +1,204 @@
+a{
+	text-decoration: none;
+}
+html{
+	padding: 0;
+}
+body{
+	margin: auto;
+}
+ul li{
+	list-style-type: none;
+}
+/*top*/
+#top{
+	height: 40px;
+	width: 100%;
+	background-color: #333;
+}
+#top_left{
+	float: left;
+	padding-left: 160px;
+	padding-top: 8px;
+}
+#top_left span{
+	color: 424242;
+	margin:0.5em;
+}
+#top_left a{
+	color: #b0b0b0;
+	font-size: 12px;
+}
+#top_left a:hover{
+	color: white;
+}
+
+#top_right{
+	float: right;
+	padding-right: 160px;
+	padding-top: 8px;
+}
+#top_right span{
+	color: 424242;
+	margin:0.5em;
+}
+#top_right a{
+	color: #b0b0b0;
+	font-size: 12px;
+}
+#top_right a:hover{
+	color: white;
+}
+
+
+
+/*middle*/
+#middle{
+	width: 1226px;
+	float: left;
+	padding-left: 135px;
+	margin: 0 auto;
+	position: relative;
+}
+#middle_1{
+	height: 100px;
+	float: left;
+	padding-left: 0px;
+}
+#middle_1_logo{
+	float: left;
+	padding-top: 25px;
+}
+#middle_1_nav{
+	float: left;
+}
+#middle_1_nav ul{
+	float: left;
+	width: auto;
+	height: auto;
+}
+#middle_1_nav ul li{
+	float: left;
+}
+#k{
+	width: 127px;
+	height: 90px;
+	padding-right: 15px;
+}
+#middle_1_nav ul li a{
+	display: block;
+	padding: 26px 10px 38px;
+	color: #333;
+}
+#middle_1_nav ul li a:hover{
+	color: #ff6700;
+}
+
+#children{
+	width: 1256px;
+	height: 290px;
+	background-color: white;
+	float: left;
+	border-top:1px solid #bebaba;
+	display: none;
+	z-index: 10;
+	position:absolute;
+	top: 100px;
+	opacity: 0.9;
+}
+#children div{
+	float:left;
+}
+#children2{
+	width: 1256px;
+	height: 290px;
+	background-color: white;
+	float: left;
+	border-top:1px solid #bebaba;
+	display: none;
+	z-index: 10;
+	position:absolute;
+	top: 100px;
+	opacity: 0.9;
+}
+#children2 div{
+	float:left;
+}
+#children3{
+	width: 1256px;
+	height: 290px;
+	background-color: white;
+	float: left;
+	border-top:1px solid #bebaba;
+	display: none;
+	z-index: 10;
+	position:absolute;
+	top: 100px;
+	opacity: 0.9;
+}
+#children3 div{
+	float:left;
+}
+#children4{
+	width: 1256px;
+	height: 290px;
+	background-color: white;
+	float: left;
+	border-top:1px solid #bebaba;
+	display: none;
+	z-index: 10;
+	position:absolute;
+	top: 100px;
+	opacity: 0.9;
+}
+#children4 div{
+	float:left;
+}
+
+/***************图片展示****************/
+#imgplace{
+	float: left;
+	padding-top: 22px;
+}
+#anniu{
+	width: 1226px;
+	height: 20px;
+	margin:0 auto;
+	text-align: center;
+	float: left;
+	padding-bottom: 30px;
+}
+/*****************滚动********************/
+#picScroll{
+	width: 1226px;
+	float: left;
+	padding-top: 30px;
+	text-align: center;
+	margin:0 auto;
+	border-top: 1px solid #bebaba;
+	white-space:nowrap; 
+	overflow:hidden;
+}
+
+#di{
+	height: 40px;
+	width: 100%;
+	background-color: #333;
+	float: left;
+	margin:0 auto;
+	text-align: center;
+	margin:0;
+	padding: 0;
+	padding-top: 8px;
+}
+#di a{
+	color: #b0b0b0;
+	font-size: 12px;
+}
+#di a:hover{
+	color: white;
+}
+
+
+
+
