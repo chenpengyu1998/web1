@@ -1,0 +1,58 @@
+body{
+	width: 100%;
+	margin: 0 auto;
+}
+a{text-decoration: none;color: white;}
+a:hover{text-decoration: none;}
+ul{list-style-type: none;}
+#one{
+		width: 100%;
+		height: 400px;
+		padding: 0px;
+		background-repeat: repeat;
+		background-size: 100%;
+
+}
+#two{
+	width: 600px;
+	height: 100px;
+}
+.ziti{
+        color: #FFCC00;
+        font-size: 40px;
+        margin: 0px;
+        padding: 0px;
+}
+.three:hover{
+	color: #FFCC00;
+}
+#banner{
+	width: 100%;
+	height: 50px;
+	padding: 10px;
+	color: white;
+	font-size: 20px;
+
+}
+#elev{
+	width: 100%;
+	height: 130px;
+	background-size: 100%;
+}
+.twl{
+	margin-left: 750px;
+	padding-top: 20px;
+	color: #568193;
+	font-size: 13px;
+}
+.thr{
+	font-size: 13px;
+	color: #568193;
+}
+.for{
+	color: #415967;
+}
+.fif{
+	color: grey;
+	font-size: 13px;
+}

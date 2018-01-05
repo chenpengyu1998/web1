@@ -1,0 +1,78 @@
+#four{
+	margin-left: 190px;
+	margin-top: 80px;
+	width: 75%;
+	height: 900px;
+}
+.five{
+	width: 650px;
+	float: right;
+}
+#six{
+	width: 450px;
+	float: left;
+	background-color: #FDFFFF;
+}
+#seven{
+	width: 650px;
+	float: right;
+}
+.eight{
+	line-height: 40px;
+	color: black;
+}
+.nine{
+	color: black;
+}
+.nine:hover{
+	color:  #FFCC00;
+}
+.ten{
+	padding-top: 10px;
+	color: black;
+	font-size: 20px;
+}
+.ten:hover{
+	color:  #FFCC00;
+}
+* {
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+}
+#nav{
+	margin-top: 20px;
+	margin-left: 50px;
+	list-style:none;
+	line-height:27px;
+}
+#nav a{
+	display:block;
+	width:100px;
+	color: #EA0000;
+	text-align:center;
+	text-decoration:none;
+}
+#nav a:hover{
+	color:  #FFCC00;
+	text-decoration: none;
+	font-weight: bold;
+}
+#nav ul{list-style: none;}
+#nav li{
+	float:left;
+	width: 150px;
+}
+#nav li ul{
+	display:none;
+}
+#nav li.subMenuShow ul{
+	display:block;
+}
+#picScroll{
+	margin:0 auto;
+	height:400px;
+	white-space:nowrap; 
+	width:650px;
+	overflow:hidden;
+}
